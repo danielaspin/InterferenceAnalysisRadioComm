@@ -37,7 +37,7 @@ powermatrix = obtainPOWERmatrix();
 ### obtainBELmatrix()
 
 **Description:**  
-Returns the sum of `a` and `b`.
+Returns the PMF matrix of the Building Entry Loss(BEL) distribution with resolution set to 1, derived from the data in a specified file.
 
 **Syntax:**
 ```matlab
