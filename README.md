@@ -7,7 +7,7 @@ This is my development in MATLAB for an alternative method of analyzing interfer
 ### calculate_histogram(X, res)
 
 **Description:**  
-Returns the PMF matrix from the data vector 'X' with the specified resolution 'res'.
+Returns the PMF matrix from the data vector `X` with the specified resolution `res`.
 
 **Syntax:**
 ```matlab
@@ -17,7 +17,7 @@ PMFmatrix = calculate_histogram(X, res);
 ### calculate_file_to_matrix(file, res)
 
 **Description:**  
-Returns the PMF matrix by extracting data from column 2 of the file 'file' with the specified resolution 'res'.
+Returns the PMF matrix by extracting data from column 2 of the file `file` with the specified resolution `res`.
 
 **Syntax:**
 ```matlab
