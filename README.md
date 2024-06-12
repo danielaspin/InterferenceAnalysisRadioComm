@@ -47,7 +47,7 @@ belmatrix = obtainBELmatrix();
 ### positiveToNegativeMatrix(matrix_to_be_flipped)
 
 **Description:**  
-Returns the sum of `a` and `b`.
+Returns the mirrored PMF matrix of `matrix_to_be_flipped`.
 
 **Syntax:**
 ```matlab
