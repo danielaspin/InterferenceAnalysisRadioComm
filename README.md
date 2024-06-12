@@ -27,7 +27,7 @@ PMFmatrix = calculate_file_to_matrix(file, res);
 ### obtainPOWERmatrix()
 
 **Description:**  
-Returns the sum of `a` and `b`.
+Returns the PMF matrix of the power distribution with resolution set to 1, derived from the data in a specified file.
 
 **Syntax:**
 ```matlab
