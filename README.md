@@ -14,6 +14,16 @@ Returns the sum of `a` and `b`.
 sums = sum(a, b)
 ```
 
+### sum(a, b)
+
+**Description:**  
+Returns the sum of `a` and `b`.
+
+**Syntax:**
+```matlab
+sums = sum(a, b)
+```
+
 
 ## Links
 LinkedIn Page: http://linkedin.com/in/daniel-aspin-044703214
