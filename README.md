@@ -64,6 +64,16 @@ Returns the mirrored PMF matrix of `matrix_to_be_flipped`.
 flipped_matrix = positiveToNegativeMatrix(matrix_to_be_flipped);
 ```
 
+### rescale_matrix(matrix, res)
+
+**Description:**  
+Returns the rescaled matrix of `matrix` with resolution `res`.
+
+**Syntax:**
+```matlab
+rescaled_matrix = rescale_matrix(matrix, res)
+```
+
 ### convolve_matrices_withmatrixmulti_resolution(matrix1, matrix2, res)
 
 **Description:**  
