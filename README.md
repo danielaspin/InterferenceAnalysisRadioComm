@@ -74,6 +74,16 @@ Returns the rescaled matrix of `matrix` with resolution `res`.
 rescaled_matrix = rescale_matrix(matrix, res)
 ```
 
+### PMFmatrix_toCDFmatrix(pmf_matrix)
+
+**Description:**  
+Returns the CDF matrix of `pmf_matrix`.
+
+**Syntax:**
+```matlab
+cdf_matrix = PMFmatrix_toCDFmatrix(pmf_matrix)
+```
+
 ### convolve_matrices_withmatrixmulti_resolution(matrix1, matrix2, res)
 
 **Description:**  
