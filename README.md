@@ -94,6 +94,18 @@ Returns the convoluted PMF matrix of `matrix1` and `matrix2` with resolution `re
 convolved_matrix = convolve_matrices_withmatrixmulti_resolution(matrix1, matrix2, res);
 ```
 
+### compareTwoDistributions(first_dist, second_dist)
+
+**Description:**  
+Displays the PMF matrices `first_dist` and `second_dist` on the same figure.
+
+**Syntax:**
+```matlab
+compareTwoDistributions(first_dist, second_dist);
+```
+
+
+
 ## Links
 LinkedIn Page: http://linkedin.com/in/daniel-aspin-044703214
 
