@@ -57,7 +57,7 @@ flipped_matrix = positiveToNegativeMatrix(matrix_to_be_flipped);
 ### convolve_matrices_withmatrixmulti_resolution(matrix1, matrix2, res)
 
 **Description:**  
-Returns the sum of `a` and `b`.
+Returns the convoluted PMF matrix of `matrix1` and `matrix2` with resolution `res`.
 
 **Syntax:**
 ```matlab
