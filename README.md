@@ -24,6 +24,16 @@ Returns the PMF matrix by extracting data from column 2 of the file `file` with 
 PMFmatrix = calculate_file_to_matrix(file, res);
 ```
 
+### calculateMeanStd(PMFmatrix)
+
+**Description:**  
+Prints out the standard deviation and mean value of the PMF matrix `PMFmatrix`.
+
+**Syntax:**
+```matlab
+calculateMeanStd(PMFmatrix);
+```
+
 ### obtainPOWERmatrix()
 
 **Description:**  
