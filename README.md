@@ -71,7 +71,7 @@ Returns the rescaled matrix of `matrix` with resolution `res`.
 
 **Syntax:**
 ```matlab
-rescaled_matrix = rescale_matrix(matrix, res)
+rescaled_matrix = rescale_matrix(matrix, res);
 ```
 
 ### PMFmatrix_toCDFmatrix(pmf_matrix)
@@ -81,7 +81,7 @@ Returns the CDF matrix of `pmf_matrix`.
 
 **Syntax:**
 ```matlab
-cdf_matrix = PMFmatrix_toCDFmatrix(pmf_matrix)
+cdf_matrix = PMFmatrix_toCDFmatrix(pmf_matrix);
 ```
 
 ### convolve_matrices_withmatrixmulti_resolution(matrix1, matrix2, res)
@@ -102,6 +102,26 @@ Displays the PMF matrices `first_dist` and `second_dist` on the same figure.
 **Syntax:**
 ```matlab
 compareTwoDistributions(first_dist, second_dist);
+```
+
+### plotCDFmatrix(PMFmatrix, optional1)
+
+**Description:**  
+Displays the CDF of the PMF matrices `PMFmatrix` and `optional1` (optionally) on the same figure.
+
+**Syntax:**
+```matlab
+plotCDFmatrix(PMFmatrix, optional1);
+```
+
+### plotCCDFfromPMFmatrix(PMFmatrix, varargin)
+
+**Description:**  
+Displays the CCDF of the PMF matrix `PMFmatrix` along with additional PMF matrices from `varargin` on the same figure.
+
+**Syntax:**
+```matlab
+plotCCDFfromPMFmatrix(PMFmatrix, PMFmatrix2, ...);
 ```
 
 
