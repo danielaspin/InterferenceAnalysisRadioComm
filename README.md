@@ -128,6 +128,7 @@ plotCCDFfromPMFmatrix(PMFmatrix, PMFmatrix2, ...);
 
 ## Links
 LinkedIn Page: http://linkedin.com/in/daniel-aspin-044703214
+
 Thesis Report: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1885507&dswid=-3993
 
 
